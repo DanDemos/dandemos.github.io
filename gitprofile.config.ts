@@ -52,14 +52,14 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
+    title: 'Portfolio of Dan Demo',
+    description: 'Dan Demo Code Repository',
+    imageURL: 'https://avatars.githubusercontent.com/u/98115956?v=4',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'kaungmonsoe',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -69,97 +69,109 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: 'dan-demo', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    telegram: '+959989002021',
+    website: 'https://dandemo.website/',
+    phone: '+959989002021',
+    email: 'dandemo14613@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'CSS',
+    'Tailwind',
+    'JavaScript',
+    'ReactNative.js',
+    'React.js',
     'PHP',
     'Laravel',
-    'JavaScript',
-    'React.js',
     'Node.js',
     'Nest.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Innovix Solutions',
+      position: 'Team Lead Senior React Native Developer',
+      from: 'February 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://innovix-solutions.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Host Myanmar',
+      position: 'Full Stack Team Lead Senior Developer',
+      from: 'November 2022',
+      to: 'February 2023',
+      companyLink: 'https://hostmyanmar.net/',
+    },
+    {
+      company: 'Myanmar Polestar',
+      position: 'Frontend Developer & UI/UX Designer',
+      from: 'August 2022',
+      to: 'November 2022',
+      companyLink: 'https://www.facebook.com/myanmarpolestartours/',
+    },
+    {
+      company: 'MMIT Innovation',
+      position: 'Frontend Developer',
+      from: 'February 2022',
+      to: 'August 2022',
+      companyLink: '',
+    },
+    {
+      company: 'Myan Pro Solutions',
+      position: 'System Administrator ',
+      from: 'August 2020',
+      to: 'July 2021',
+      companyLink: 'https://myanprosolutions.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Advanced React',
+      body: 'Meta Front-End Developer Professional Certificate',
+      year: 'January 2024',
+      link: 'https://coursera.org/share/af10fee9828b3404ebe7db4b04965b7f',
+    },
+    {
+      name: 'Programming with JavaScript',
+      body: 'Meta Front-End Developer Professional Certificate',
+      year: 'January 2024',
+      link: 'https://www.coursera.org/share/2aa7cdda57f60d34cbd759672619da9c',
+    },
+    {
+      name: 'Introduction to Front-End Development',
+      body: 'Meta Front-End Developer Professional Certificate',
+      year: 'January 2024',
+      link: 'https://www.coursera.org/share/c4db327cede4000b3a9296c7c877827f',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Greenwich ',
+      degree: 'Bachelor of Science',
+      from: '2019',
+      to: '2020',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Scottish Qualifications Authority',
+      degree: 'Higher National Diploma',
+      from: '2017',
+      to: '2019',
     },
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,7 +183,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'halloween',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
