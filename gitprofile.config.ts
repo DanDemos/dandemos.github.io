@@ -33,20 +33,20 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'DoMaLoG',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Domalog is perfect for turning experiences into value, breaking out of your shell and unlocking your potential. Not only can you easily take and review notes, You can also organize your thinking based on the gap between your peers" perspectives.We will continue to evolve in order to overcome the barriers of taste together with you.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://domalog.fun/images/fav-icon.png',
+          link: 'https://domalog.fun/',
         },
         {
-          title: 'Project Name',
+          title: 'Myanmar Polestar',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Myanmar Polestar  is a fully Myanmar owned Destination Management(DMC) and MICE Management Company, first established in 2001. With an office of 30 staff based in Yangon',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://www.myanmarpolestar.com/dist/front/img/logo1.png',
+          link: 'https://www.myanmarpolestar.com/',
         },
       ],
     },
