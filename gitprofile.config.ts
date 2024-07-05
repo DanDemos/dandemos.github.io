@@ -57,7 +57,7 @@ const CONFIG = {
     imageURL: 'https://avatars.githubusercontent.com/u/98115956?v=4',
   },
   social: {
-    linkedin: 'kaungmonsoe',
+    linkedin: 'kaung-mon-soe-aba827218',
     twitter: '',
     mastodon: '',
     researchGate: '',
