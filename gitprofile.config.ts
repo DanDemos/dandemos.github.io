@@ -71,7 +71,7 @@ const CONFIG = {
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: 'dan-demo', // example: '1/jeff-atwood'
+    stackoverflow: '22034361/dan-demo', // example: '1/jeff-atwood'
     skype: '',
     telegram: '+959989002021',
     website: 'https://dandemo.website/',
